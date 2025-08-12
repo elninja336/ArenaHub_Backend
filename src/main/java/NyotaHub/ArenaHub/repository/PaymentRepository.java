@@ -1,0 +1,10 @@
+package NyotaHub.ArenaHub.repository;
+
+import NyotaHub.ArenaHub.models.Payment;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface PaymentRepository extends JpaRepository<Payment, Long> {
+    // custom queries if needed
+}
