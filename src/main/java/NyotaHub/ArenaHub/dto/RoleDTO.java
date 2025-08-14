@@ -12,7 +12,7 @@ public class RoleDTO {
 
     private Long roleID;
 
-    @NotBlank(message = "Description must not be blank")
+    @NotBlank(message = "name must not be blank")
     private String name;
 
     private String description;
